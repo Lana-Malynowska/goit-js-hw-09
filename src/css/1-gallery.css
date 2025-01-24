@@ -1,0 +1,24 @@
+.gallery {
+  width: 1128px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin: 0 auto;
+}
+
+.gallery-item {
+  width: calc((100% - 2 * 24px) / 3);
+  cursor: pointer;
+}
+
+.sl-wrapper {
+  background-color: rgba(46, 47, 66, 0.8);
+}
+
+.sl-wrapper button {
+  color: #fff !important;
+}
+
+.sl-counter {
+  color: #fff !important;
+}
