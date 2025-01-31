@@ -11,6 +11,11 @@
   cursor: pointer;
 }
 
+.gallery-image {
+  width: 360px;
+  height: 200px;
+}
+
 .sl-wrapper {
   background-color: rgba(46, 47, 66, 0.8);
 }
